@@ -1,0 +1,244 @@
+/* @media (min-width: 1200px){
+    .container {
+        max-width: 1170px;
+    }
+} */
+/* .container, .container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+} */
+@media(min-width: 991px){
+    .z-indexlogo_99{
+        z-index: 99;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+}
+@media(min-width: 991px){
+    .z-indexlogo.bv{
+        width: calc(100% - 60px);
+    }
+
+}
+@media(min-width: 991px){
+    .z-indexlogo{
+        z-index: 10;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+
+
+@media (max-width: 991px){
+    .logo {
+        width: auto;
+        text-align: center;
+        height: 75px;
+        display: inline-block;
+        margin: 0 auto;
+    }
+}
+
+.logo {
+    text-align: center;
+}
+.logo {
+    position: relative;
+}
+/* a {
+    color: #ba0000;
+} */
+a{
+    outline: none !important;
+}
+a, a:hover {
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+.logo img {
+    max-height: 100px;
+    padding: 7px 0;
+}
+.logo img {
+    height: 80px;
+    width: 260px;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+@media (min-width: 992px){
+    .search-box {
+        padding-top: 27px;
+    }
+}
+.search-box {
+    margin: auto;
+}
+.text-left{
+    text-align: left;
+}
+@media(max-width: 991px){
+    form#search_mini_form {
+        display: block;
+    }
+}
+form#search_mini_form {
+    width: 100%;
+}
+form#search_mini_form, .fix-cart, .l_o, .box_log {
+    position: relative;
+    display: inline-block;
+}
+@media(max-width: 767px){
+    #search {
+        min-width: initial;
+    }
+
+}
+#search {
+    margin: 0;
+    width: 100%;
+    font-size: 14px;
+    height: 45px;
+    color: #000;
+    border: none;
+    border: 1px solid #fff;
+    padding: 0 37px 0 10px;
+    background: #fff;
+    outline: none;
+    min-width: 265px;
+    border-radius: 5px;
+}
+.button, .btn,.button-tabs li a {
+    transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
+}
+
+.search-btn-bg {
+    max-width: 23px;
+    padding: 0 !important;
+    border: none !important;
+    position: absolute;
+    top: 12px;
+    right: 6px;
+    background: initial !important;
+}
+@media (min-width: 992px){
+    .search-box {
+        padding-top: 27px;
+    }
+}
+
+.search-box {
+    margin: auto;
+}
+button, div, a {
+    outline: none !important;
+}
+@media (min-width: 1200px){
+    .sup {
+        margin-right: 20px;
+    }
+}
+
+.sup {
+    display: inline-block;
+    max-width: 150px;
+}
+.sup a {
+    font-size: 15px;
+    font-weight: 600;
+    transition: transform 0.2s ease 0s;
+}
+
+.sup a, .sup span {
+    display: block;
+    color: #fff;
+}
+.sup a img {
+    max-width: 20px;
+}
+.sup a, .sup span {
+    display: block;
+    color: #fff;
+}
+.top-cart-contain {
+    color: #333;
+    padding-left: 20px;
+    padding-top: 3px;
+    right: 0;
+    z-index: 1000;
+    display: inline-block;
+}
+
+.pull-right {
+    float: right;
+}
+.mini-cart {
+    text-align: center;
+    max-width: 35px;
+    position: relative;
+}
+.mini-cart a img {
+    max-width: 40px;
+}
+.mini-cart {
+    height: 67px;
+}
+.mini-cart .basket .cart-box {
+    display: inline-block;
+    position: absolute;
+    background: #3F51B5;
+    top: 20px;
+    left: -5px;
+    font-size: 15px;
+    min-width: 25px;
+    height: 25px;
+    line-height: 24px;
+    border-radius: 12px;
+    border: 1px solid white;
+}
+.mini-cart .basket .cart-box #cart-total {
+    color: #fff;
+    text-transform: none;
+}
+.mini-cart .dropdown-toggle {
+    font-size: 12px;
+    padding: 0;
+    text-transform: none;
+}
+.dropdown-toggle {
+    white-space: nowrap;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    #mobile-menu{
+        display: block !important;
+        margin: auto;
+        height: 65px;
+    }
+}
+#mobile-menu{
+    display: none;
+    text-align: left;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 7px;
+}
+#mobile-menu .line_mn{
+    display: inline-block;
+    width: 30px;
+    float: left;
+    padding-top: 7px;
+    line-height: 8px;
+}
+#mobile-menu .line_mn .icon-bar{
+    background: #fff;
+    height: 2px;
+    width: 100%;
+    display: inline-block;
+}

@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+#bottomwrapper {
+  padding: 30px 0px;
+}
+#bottomwrapper form {
+  margin-top: 20px;
+}
+#bottomwrapper .group-btn {
+  text-align: right;
+}
+#bottomwrapper .group-btn button {
+  margin-top: 20px;
+  margin-right: 15px;
+
+}
+
+.logo img {
+  height: 80px;
+  width: 340px;
+}
+#menu {
+  width: 100%;
+  text-align: center;
+  background-color:white;
+}
+.div#sidebar-wrapper {
+  background: beige;
+}
+
+
+
+/* a {
+color: white;
+} */
+#slider {
+width: 100%;
+  max-height: 530px;
+  margin: 10px 0px;
+}
+.kode-caption{
+  bottom: 15%;
+  top: auto !important;
+  position:absolute;
+  width: 100%;
+  left: 0px;
+  margin-bottom: 15px;
+  text-align: center;
+  z-index: 200; 
+}
+.kode-caption h2{
+  font-size: 90px;
+  color: #fff;
+}
+.kode-caption h5{
+  font-size:30px;
+  color:#fff;
+  text-transform:uppercase;
+  padding:0px 15px;
+  position:relative;
+  display:inline-block;
+}
+.kode-caption p{
+  color: #fff;
+}
+a:hover{
+  color: yellow;
+  text-decoration: none;
+}
+.product {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.product p {
+  margin-bottom: 0px;
+}
+.product-image{
+  margin-bottom: 30px;
+  width: 207px;
+  height: 300px;
+}
+.product a {
+  font-size: 25px;
+  color: black;
+}
+a {
+  color: black;
+  font-weight: bold;
+}
+a:hover{
+  color: red;
+  text-decoration: none;
+}
+/* .logo{
+  height: 60px;
+  width: 150px;
+} */
+.text {
+  display: flex;
+  justify-content: space-between;
+}
+.line-brand{
+  width: 100%;
+  border: 1px solid black;
+  background: black;
+}
+.text-brand{
+  padding: 0px 20px;
+}
+
+.section-content h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  position: relative;
+  margin-top: 50px;
+  text-align: center;
+  line-height: normal;
+  
+}
+.section-content h2::before {
+  width: 50px;
+}
+.line {
+  content: "";
+  height: 4px;
+  width: 50px;
+  border-top: solid 1px #cbcbcd;
+  border-bottom: solid 1px #cbcbcd;
+  border-color: #BB0000;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin-top: 25px;
+  height: 6px;
+  margin: 20px auto 0;
+  margin-bottom: 25px;
+}
+.books-listing-4 {
+  float: left;
+  /* width: 100%; */
+  padding: 30px 30px 50px 30px;
+  border: solid 1px #d8d8d8;
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+.book{
+  float: left;
+  box-shadow: none;
+  width: 200px;
+
+  
+}
+.home-combo .kode-text img {
+  width: 200px;
+  height: 250px;
+}
+.books-listing-4 .kode-text {
+  float: left;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.book-price {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  border-top: solid 1px #d8d8d8;
+  padding: 8px 12px;
+  bottom: 0px;
+}
+
+.footer_wwap {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 95px 0 0 0;
+}
+.lazyload {
+  background: lavender;
+}
+.footer {
+  width: 100%;
+  float: left;
+  margin-top: 0px;
+ 
+}
+
+.logo-footer img{
+  width: 250px;
+}
+.footer .site-footer {
+  width: 100%;
+}
+a {
+  color: #282828;
+  text-decoration: none;
+  background: 0 0;
+}
+.sum_footer {
+  color: black;
+  font-size: 16px;
+  margin: 27px 0 15px;
+  font-weight: 500;
+}
+.img{
+  border: 0 none;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}
+.getmail .clasocialss {
+  float: left;
+  display: block;
+  width: 100%;
+  padding-top: 5px;
+}
+
+.getmail .clasocialss a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 8px;
+  font-size: 16px;
+  margin-top: 0px;
+  background: transparent;
+}
+
+footer.footer .widget-ft .time_work .input-group .btn-default {
+  font-weight: bold;
+  font-size: 16px;
+  height: 60px;
+  border-radius: 30px !important;
+  background-color: #4d8a54;
+  color: #fff;
+  min-width: 151px;
+  text-transform: uppercase;
+  margin-left: -150px !important;
+  z-index: 9 !important;
+}
+.footer .widget-ft {
+  margin-top: 70px;
+}
+
+.footer .widget-ft .content-contact {
+  width: 100%;
+  float: left;
+  margin-bottom: 15px;
+}
+
+#footer-bottom {
+background-color: #666666;
+text-align: center;
+padding: 20px 0;
+}
+.content-bottom {
+color: white;
+font-size: 14px;
+text-transform: uppercase;
+}
+special-content_title {
+  color: #ff5e0a;
+}
+
+
+
